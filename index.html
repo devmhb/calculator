@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cal_container">
+
+    
+   <div class="top">
+    <input type="text" id="result" name="" id="" maxlength="10">
+    <input type="button" id="divide" onclick="myFunc('/')" value="/"><br>
+   </div>
+
+    <input type="button"  class="clear" onclick="clearInput()" value="C">
+    <input type="button" onclick="myFunc('9')" value="9">
+    <input type="button" onclick="myFunc('8')" value="8">
+    <input type="button" onclick="myFunc('*')" value="*"><br>
+
+    <input type="button" onclick="myFunc('7')" value="7">
+    <input type="button" onclick="myFunc('6')" value="6">
+    <input type="button" onclick="myFunc('5')" value="5">
+    <input type="button" onclick="myFunc('-')" id="minus" value="-"><br>
+
+    <input type="button" onclick="myFunc('4')" value="4">
+    <input type="button" onclick="myFunc('3')" value="3">
+    <input type="button" onclick="myFunc('2')" value="2">
+    <input type="button" onclick="myFunc('+')" id="plus" value="+"><br>
+
+    <input type="button" onclick="myFunc('1')" value="1">
+    <input type="button" onclick="myFunc('0')" value="0">
+    <input type="button" onclick="myFunc('.')" value=".">
+    <input type="button" id="equle" onclick="calculation()" value="="><br>
+
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
